@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "",
+	"description": "",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "zapium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 15,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items":[
+						{ "item": "copper-powder", "amount": 1},
+						{ "item": "titanium", "amount": 1},
+						{ "item": "silicon", "amount": 1}
+					]
+				},
+		"liquid": 
+			{
+			"liquid":	"substrate", "amount": 0.1
+			}
+				},
+	"requirements": [
+		{ "item": "lead", "amount": 25 },
+		{ "item": "copper", "amount": 25 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "titanium", "amount": 50 }
+					],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,13 @@
+{
+	"name": "",
+	"description": "",
+	"type": "Wall",
+	"health": 1600,
+	"size": 2,
+	"requirements": 
+	[
+		{ "item": "bronze", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

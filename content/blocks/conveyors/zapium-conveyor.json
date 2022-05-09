@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "",
+	"description": "",
+	"requirements": [
+		{"item": "zapium", "amount": 3},
+		{"item": "silicon", "amount": 3},
+		{"item": "lead", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 0.12,
+	"research": "titanium-conveyor"
+}
